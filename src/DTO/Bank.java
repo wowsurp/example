@@ -20,6 +20,6 @@ public class Bank {
 		return code;
 	}
 	public void setCode(String code) {
-		this.code = code;
+		this.code = code + 1;
 	}
 }
